@@ -29,6 +29,8 @@ namespace samples
 
             foreach (byte[] record in adbkIter)
             {
+              // IRISIteratorで取得したノードが$List形式の場合でもIRISListではなくbyte[]で返ってくるので、仕方なく以下のように変換
+              // 将来的には改善を期待したい
               IRISList adbkrecord = new(record, record.Length);  
               Console.WriteLine("Name = " + adbkrecord.Get(2));
               Console.WriteLine("Telno = " + System.Text.Encoding.ASCII.GetString(adbkrecord.GetBytes(4)));
