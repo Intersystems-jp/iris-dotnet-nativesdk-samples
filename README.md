@@ -1,4 +1,4 @@
-# Native SDK for .Net サンプル集
+# Native SDK for .NET サンプル集
 ## 事前準備
 ### Git Clone
 
