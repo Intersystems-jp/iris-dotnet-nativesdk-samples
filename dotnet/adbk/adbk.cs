@@ -31,7 +31,6 @@ namespace samples
             Console.WriteLine("Prefecture = " + adbk.Get("Prefecture"));
             Console.WriteLine("Zipcode = " + adbk.Get("Zipcode").ToString());
             
-
             conn.Close();
         }
     }
