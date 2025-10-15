@@ -37,7 +37,7 @@ dotnet配下の各サンプルディレクトリにあるsamples.csprojファイ
 
 samples.csprojファイルをIDE（Visual StudioやVSCode）で開いて、ビルドして実行
 
-#### dotnet¥adbk¥adbk.py
+#### dotnet¥adbk¥adbk.cs
 
 Samples.ADBKというクラスのインスタンスにアクセスするサンプル
 
