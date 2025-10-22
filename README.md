@@ -29,7 +29,7 @@ dotnet配下の各サンプルディレクトリにあるsamples.csprojファイ
 
 ### サンプル実行
 
-#### dotnet¥PrintIRISVersion¥PrintIRISCersion.cs
+#### dotnet¥PrintIRISVersion¥PrintIRISVersion.cs
 
 稼働中のIRISバージョンを表示する
 
